@@ -1,0 +1,6 @@
+Tissue specificity modifies methylation–expression coupling by tissue.
+Human lung shows a modest high-tissue-specificity coupling advantage.
+Skeletal-muscle gene bodies show the opposite architecture-matched pattern.
+Paired mouse liver does not reproduce the strong tissue-average effect.
+Human–mouse high-specificity overlap is only modestly enriched after matching.
+
