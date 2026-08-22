@@ -1,0 +1,6 @@
+GTEx v8 median gene-level expression: https://gtexportal.org/home/datasets
+Li et al. 2017 Mouse BodyMap: https://doi.org/10.1038/s41598-017-04520-z
+Ensembl Compara one-to-one orthologues: https://www.ensembl.org
+
+Venn counts were calculated from the fixed-threshold analysis in Human_Mouse_TSI_Tissue_Overlap.xlsx.
+For tissue slides, genes were assigned to the organ containing maximum expression.
