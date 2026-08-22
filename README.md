@@ -17,8 +17,8 @@ Tissue specificity is quantified with the tau index. The principal fixed groups 
 config/          Dataset accession and analysis settings
 data/            Retrieval and local-file instructions (no large raw data)
 docs/            Analysis notes and manuscript-facing documentation
-manuscript/      Journal manuscript and editable figure deck
-results/         Derived workbooks suitable for audit and reuse
+manuscript/      Journal manuscript and editable figure deck (release archive)
+results/         Derived audit workbooks (release archive)
 scripts/         Python analysis and figure-generation scripts
 submission/      Elsevier highlights and pre-submission checklist
 ```
@@ -55,15 +55,19 @@ pip install -r requirements.txt
 
 ## Reproduction notes
 
-The archived scripts reproduce the exact analysis history and retain some legacy `/tmp` paths used during the original run. Before a public release, set up the filenames listed in `data/README.md` or replace those path constants with a project-specific data directory. Fixed random seeds are documented in the manuscript and scripts. Derived workbooks are included so every reported summary can be audited without downloading the large source matrices.
+The archived scripts reproduce the exact analysis history and retain some legacy `/tmp` paths used during the original run. Before rerunning, set up the filenames listed in `data/README.md` or replace those path constants with a project-specific data directory. Fixed random seeds are documented in the manuscript and scripts.
 
-## Principal outputs
+Large binary deliverables are distributed in the versioned GitHub Release archive rather than tracked in the source tree. This keeps the repository lightweight while preserving the derived workbooks needed to audit every reported summary without downloading the large source matrices.
+
+## Principal release artifacts
 
 - `results/Human_Mouse_TSI_Methylation_Correlation.xlsx`
 - `results/Human_Mouse_TSI_Tissue_Overlap.xlsx`
 - `results/Human_Mouse_TSI_Validation_Analyses.xlsx`
 - `manuscript/Tissue_Specificity_Methylation_Expression_CBP_D_Submission.docx`
 - `manuscript/TSI_Manuscript_Figures_Editable.pptx`
+
+Until the first GitHub Release is published, these files are available in the prepared local archive `TSI_Methylation_Expression_GitHub_Package.zip`.
 
 ## Citation
 
@@ -72,4 +76,3 @@ Use `CITATION.cff` after completing the author list, repository URL, release dat
 ## License
 
 No reuse license has been assigned in this pre-submission package. The authors should select an explicit code and data license before making the repository public.
-
