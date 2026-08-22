@@ -1,0 +1,7 @@
+analysis:
+  tsi_low: 0.4
+  tsi_high: 0.8
+  orthology: ortholog_one2one
+  matched_organs: 15
+  conditioned_null_iterations: 5000
+  random_seed: 20260820
